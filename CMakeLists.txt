@@ -41,9 +41,7 @@ CPM_EnsureRepoIsCurrent(
     TARGET_DIR "./boost_graph"            # Required - Directory in which to place repository.
     GIT_REPOSITORY "https://github.com/boostorg/graph.git"         # Git repository to clone and keep up to date.
     GIT_TAG  boost-1.55.0               # Git tag to checkout.   
-    USE_CACHING 1              # Enables caching of repositories if the user 
-                                 # has specified CPM_MODULE_CACHING_DIR.
-                                 # Not enabled by default.
+    
     )
 
 
