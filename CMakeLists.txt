@@ -38,7 +38,7 @@ CPM_InitModule(${CPM_MODULE_NAME})
 #------------------------------------------------------------------------------
 
 CPM_EnsureRepoIsCurrent(
-    TARGET_DIR "./boost_graph"            # Required - Directory in which to place repository.
+    TARGET_DIR "${CMAKE_CURRENT_SOURCE_DIR}/boost/graph"            # Required - Directory in which to place repository.
     GIT_REPOSITORY "https://github.com/boostorg/graph.git"         # Git repository to clone and keep up to date.
     GIT_TAG  boost-1.55.0               # Git tag to checkout.   
     
