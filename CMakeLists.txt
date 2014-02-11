@@ -45,4 +45,4 @@ CPM_EnsureRepoIsCurrent(
     )
 
 
-CPM_ExportAdditionalIncludeDir("./boost_graph/include")
+CPM_ExportAdditionalIncludeDir("${CMAKE_CURRENT_SOURCE_DIR}/boost/graph/include")
