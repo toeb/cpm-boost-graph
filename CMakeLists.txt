@@ -11,6 +11,11 @@ include(${CMAKE_CURRENT_BINARY_DIR}/init.cmake)
 # All externals *must* define this.
 CPM_ForceOnlyOneModuleVersion()
 
+
+CPM_AddModule("boost_config"
+  GIT_REPOSITORY "https://github.com/toeb/cpm-boost-config"
+  GIT_TAG "master")
+
 CPM_InitModule(${CPM_MODULE_NAME})
 
 #------------------------------------------------------------------------------
